@@ -7,6 +7,7 @@ from django.db.models.aggregates import Max, Min, Count, Avg
 # Create your views here.
 
 def hello_world(request):
+    # test for git fetch
     # this is another test commit from my windows 11 PC
     # this is a test commit from my windows 11 PC
     # it is test
