@@ -86,4 +86,4 @@ class OrderAdmin(admin.ModelAdmin):
     inlines = [OrderItemInline]
     list_display = ['id', 'placed_at', 'customer']
 
-
+admin.site.register(models.CartItem)
