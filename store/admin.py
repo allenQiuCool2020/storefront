@@ -87,3 +87,4 @@ class OrderAdmin(admin.ModelAdmin):
     list_display = ['id', 'placed_at', 'customer']
 
 admin.site.register(models.CartItem)
+admin.site.register(models.OrderItem)
